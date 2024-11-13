@@ -110,7 +110,7 @@ export const AddProductoComponent = () => {
                                     </div>
                                     <div className='botones'>
                                         <button className='btn btn-danger' onClick={(e)=> saveOrUpdatProducto(e)}>Guardar</button>                                        
-                                        <Link to='/clientes' className='btn btn-primary'>Cancelar</Link>
+                                        <Link to='/productos' className='btn btn-primary'>Cancelar</Link>
                                     </div>
                                 </form>
                             </div>
